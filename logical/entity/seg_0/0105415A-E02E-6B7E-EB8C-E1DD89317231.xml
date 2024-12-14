@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0105415A-E02E-6B7E-EB8C-E1DD89317231" name="AFFILIATION">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>74C1579C-35CE-128F-C288-76B78263C53E</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DOCTOR ID" id="4D292AF2-9EC7-127C-27F6-9D684CE7D277">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>3E75320B-DEE5-8250-143F-6A3121E9D7C5</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<referedAttribute>00147403-4575-9292-2F35-F67F536DBF66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HOSPITAL ID" id="3763E429-C126-4C66-5A6C-43176D88D52B">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>69CEBC44-9677-9E5E-4CB2-B437F4FFB096</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<referedAttribute>A27C5D79-13FD-780A-8481-AC882D200346</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AFFILIATION DATE" id="FEC9C773-FD46-04AE-6E0A-26E9A6CF770A">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>F1A42EB7-E48B-0FFB-C069-DAC488F1FD05</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B9046DD-34DB-8F69-7BD6-90ED3F47EDC6" name="AFFILIATION PK">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>5A16CBCB-E56F-A398-7F60-237D4FCF8DA4</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4D292AF2-9EC7-127C-27F6-9D684CE7D277</attributeRef>
+<attributeRef>3763E429-C126-4C66-5A6C-43176D88D52B</attributeRef>
+<attributeRef>FEC9C773-FD46-04AE-6E0A-26E9A6CF770A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

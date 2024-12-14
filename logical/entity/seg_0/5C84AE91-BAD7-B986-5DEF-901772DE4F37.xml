@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C84AE91-BAD7-B986-5DEF-901772DE4F37" name="CHECKUP">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>15325283-CCC6-EA86-D1B0-F4F1EE96EF1F</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>114C1B60-33BF-A174-ED16-72B23699AA96</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VISIT ID" id="818540E0-24D9-18E7-B7CB-CB0CC7F04DEA">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>37C06EBD-B138-5E99-734D-F6EF6570E808</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<referedAttribute>5709FF39-3FEE-2949-5EB7-CF9BFDE0BFBD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="WEIGHT" id="D35136B7-B3AB-74C8-080A-4851186786FC">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>C4C3BA95-34EA-7AB3-AA0E-594D334AE158</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="HEIGHT" id="A0F7E1DC-6E42-760F-60F7-82BFA95FF2A9">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>8E84C1B2-CBB3-9DB6-EE98-195D790896C8</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,5,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEX" id="5CD8BBEA-3EC9-4523-1832-C4D5AE6DEA8F">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>8134B0FE-F332-A777-29F1-017DDBA2C310</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESULTS" id="C5ED5AE8-DBCC-AD72-269E-B709E661FAC8">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>DE1EFA6B-D6ED-7851-50A3-BB6EC1B0FB68</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2134D6F4-40DB-9E8F-989A-FA99A39D18EA" name="CHECKUP PK">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>22D0E579-46FB-EC5D-1346-5653E3DE5A18</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>818540E0-24D9-18E7-B7CB-CB0CC7F04DEA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

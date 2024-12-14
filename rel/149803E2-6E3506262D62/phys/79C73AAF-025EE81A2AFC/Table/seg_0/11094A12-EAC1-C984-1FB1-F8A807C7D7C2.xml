@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PRESCRIPTION" directorySegmentName="seg_0" id="11094A12-EAC1-C984-1FB1-F8A807C7D7C2">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4DA58D96-FCC3-C44A-CD33-B81DCCFC080B</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DOCTOR_ID" id="0C3B33AE-60DA-4EEB-CE41-C1FCA00EAE83">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRES_ID" id="6C5BA5F4-1760-0F16-652D-ACA6828C92E6">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QUANTITY" id="85A3312C-445C-8BC3-D7F7-BE31DE04970B">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EXPIRE_DATE" id="8A765A9D-1ED7-B0C2-A635-27DD110C7CC0">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SS_NUMBER" id="8B4D0A24-F41D-D9A9-65C6-5B80747802E3">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOSAGE" id="CEE08AC5-C7D9-0C8A-6F08-6EACF021186C">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DRUG" id="D27AE91F-DCE6-88AA-0095-79C4860667C5">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007506" id="59A035FD-0732-F2D6-81A1-955D1EA64EDD">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:45 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007505" id="7E4A4AB4-ED39-ACB1-10F6-18C9782A937B">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRESCRIPTION_PK" id="18DF074A-AC10-A2A1-5A06-FD617F8A313E">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:44 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<segment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<indexSegment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="AFFILIATION" directorySegmentName="seg_0" id="74C1579C-35CE-128F-C288-76B78263C53E">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4DA58D96-FCC3-C44A-CD33-B81DCCFC080B</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="HOSPITAL_ID" id="AEC73C75-DD8B-D5F6-82C0-DE5E55E857E7">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AFFILIATION_DATE" id="F1A42EB7-E48B-0FFB-C069-DAC488F1FD05">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCTOR_ID" id="FDC8F1E9-9CF2-E4C4-E989-B47D99BC6BCF">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_HOSPITAL_AFFILIATION" id="781C1C3B-00F1-8CC0-B228-2E8B5AE5B2FB">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DOCTOR_AFFILIATION" id="9108BF37-025A-6704-F637-82D72CE07C0B">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="AFFILIATION_PK" id="5A16CBCB-E56F-A398-7F60-237D4FCF8DA4">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<segment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<indexSegment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

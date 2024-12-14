@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC799BF9-4B33-B24A-B190-114D0964E3F8" name="INSURANCE">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>368A5B48-87A6-6393-65BC-17524FE648A5</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="INSURANCE ID" id="1CA012E7-9C09-D4FF-691D-0978B0E95AE8">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>C9F41C5E-A147-45E6-751B-7382FCAA0D77</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SS NUMBER" id="B9E93880-C4A7-DBAC-9416-4E9C7540682C">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>41F59784-405A-C167-57F0-823AEB0914F4</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<referedAttribute>9DA5F8CF-0C7C-CCD9-6968-506DEA64FD0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="INSURANCE NAME" id="3526779B-8912-CE55-9AEC-0059A620187C">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>95948057-307E-A7B7-92BD-651A8F742E9C</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DETAILS" id="192E1B2E-9857-DDBE-250D-8B2BFDCBB087">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>808842C8-E905-F353-93C2-79135DB6C1E0</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BE287E81-DEFD-DCFC-BC8F-10E7EC903413" name="INSURANCE PK">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>8CA08D12-6417-F923-71BE-45DC0AD8BC62</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1CA012E7-9C09-D4FF-691D-0978B0E95AE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

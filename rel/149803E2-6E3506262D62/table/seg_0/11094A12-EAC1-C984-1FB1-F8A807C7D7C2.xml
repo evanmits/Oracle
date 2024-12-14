@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11094A12-EAC1-C984-1FB1-F8A807C7D7C2" schemaObject="87FD2A9D-457B-E76F-B661-59BD957704F0" name="PRESCRIPTION">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>PRESCRIPTION</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PRES_ID" id="6C5BA5F4-1760-0F16-652D-ACA6828C92E6">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>PRES_ID</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SS_NUMBER" id="8B4D0A24-F41D-D9A9-65C6-5B80747802E3">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>SS_NUMBER</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F354B40B-09AC-BD38-6A12-79A002E630F5" referredColumn="29B78134-CF7E-950C-5321-C2D7ACAA48C0"/>
+</associations>
+</Column>
+<Column name="DOCTOR_ID" id="0C3B33AE-60DA-4EEB-CE41-C1FCA00EAE83">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>DOCTOR_ID</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="288CC0DE-601C-A0EF-6D18-495DB1FD59F6" referredColumn="62A609C0-16DB-770E-8177-C482EF88AEE8"/>
+</associations>
+</Column>
+<Column name="DOSAGE" id="CEE08AC5-C7D9-0C8A-6F08-6EACF021186C">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>DOSAGE</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45 BYTE</dataTypeSize>
+<ownDataTypeParameters>45 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTITY" id="85A3312C-445C-8BC3-D7F7-BE31DE04970B">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>QUANTITY</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EXPIRE_DATE" id="8A765A9D-1ED7-B0C2-A635-27DD110C7CC0">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>EXPIRE_DATE</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRUG" id="D27AE91F-DCE6-88AA-0095-79C4860667C5">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>PRESCRIPTION</sourceObjSchema>
+<sourceObjName>DRUG</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18DF074A-AC10-A2A1-5A06-FD617F8A313E" schemaObject="87FD2A9D-457B-E76F-B661-59BD957704F0" name="PRESCRIPTION_PK">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007424</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:44 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C5BA5F4-1760-0F16-652D-ACA6828C92E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59A035FD-0732-F2D6-81A1-955D1EA64EDD" name="SYS_C007506">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:45 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C3B33AE-60DA-4EEB-CE41-C1FCA00EAE83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E4A4AB4-ED39-ACB1-10F6-18C9782A937B" name="SYS_C007505">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8B4D0A24-F41D-D9A9-65C6-5B80747802E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

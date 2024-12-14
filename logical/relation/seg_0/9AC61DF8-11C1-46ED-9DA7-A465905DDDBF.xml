@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VISIT_PATIENT" directorySegmentName="seg_0" id="9AC61DF8-11C1-46ED-9DA7-A465905DDDBF">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>A220D0DC-BF58-C755-EBF8-0E800531836C</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<sourcePk>02A24C7E-E2DE-668A-EFC7-9AEA4B69309A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>29ECF1DF-F134-1FC2-AF99-C9346228731B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>114C1B60-33BF-A174-ED16-72B23699AA96</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

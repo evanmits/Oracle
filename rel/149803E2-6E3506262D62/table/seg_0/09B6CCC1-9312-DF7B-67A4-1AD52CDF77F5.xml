@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09B6CCC1-9312-DF7B-67A4-1AD52CDF77F5" schemaObject="87FD2A9D-457B-E76F-B661-59BD957704F0" name="FOLLOWUP">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>FOLLOWUP</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<importedID>EE0A9127-0E81-CEA9-1771-03116CCEDE9E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VISIT_ID" id="5DC0F4F1-4E15-00ED-927D-307D3859EE88">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>FOLLOWUP</sourceObjSchema>
+<sourceObjName>VISIT_ID</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<importedID>98CA6971-15D0-2C66-3E67-4752BC890330</importedID>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>*</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,*,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF728739-9F52-4E4E-D122-CA68E1DEDA55" referredColumn="0739DE4E-B742-F136-762D-4E9169BD506A"/>
+</associations>
+</Column>
+<Column name="STATUS" id="F0C7E7F4-CFC3-9491-E924-3C64DBE62891">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>FOLLOWUP</sourceObjSchema>
+<sourceObjName>STATUS</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<importedID>59B72320-B569-94A2-CCE7-04B160DEE39D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F32B46B8-96C4-4407-DE44-4C19F3F35926" schemaObject="87FD2A9D-457B-E76F-B661-59BD957704F0" name="FOLLOWUP_PK">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjSchema>SYS</sourceObjSchema>
+<sourceObjName>SYS_C007468</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<importedID>ED91D6DD-9DE7-272F-EE2E-A9161D53ECD7</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DC0F4F1-4E15-00ED-927D-307D3859EE88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE6860A8-8731-6679-4A31-2C7FEA3E4739" name="FK_FOLLOWUP_VISIT">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DC0F4F1-4E15-00ED-927D-307D3859EE88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="PATIENT" directorySegmentName="seg_0" id="D69E0084-48C9-5EF6-DCDC-6B9574804DF1">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4DA58D96-FCC3-C44A-CD33-B81DCCFC080B</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="INSURANCE_NAME" id="096BDB1D-6F15-6D07-A4B2-128CD1FB3145">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SS_NUMBER" id="29B78134-CF7E-950C-5321-C2D7ACAA48C0">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="P_ADDRESS" id="2A703E1C-7725-790E-C59A-4A42B400BA22">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="P_PHONE" id="46A018D2-F9B7-0D92-CBB8-313935AA49AE">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="INSURANCE_ID" id="6D9C28E5-647D-5FC3-52AE-24444528759E">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="P_NAME" id="82FECAB0-0824-E1FC-0D06-7F27CDF8A0CD">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="P_EMAIL" id="DDBA084B-7430-7230-02FF-E6005AC137F3">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PR_DOC_ID" id="E715A9B0-B08D-8E62-E29A-6A78BF48C244">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:43 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007496" id="69DC20BF-48B6-B532-9D23-BF441F047FFC">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:45 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PATIENT_PK" id="5E3CB549-37DE-B548-CA8E-2264F67EA1DC">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:36:44 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<segment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<indexSegment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

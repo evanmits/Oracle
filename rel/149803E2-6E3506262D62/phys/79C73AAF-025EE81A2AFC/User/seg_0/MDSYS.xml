@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="MDSYS" directorySegmentName="seg_0" id="MDSYS">
+<sourceConnName>HealthOne</sourceConnName>
+<sourceObjName>MDSYS</sourceObjName>
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 22:33:50 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>6CF0BDB0-D161-BD11-E859-146DA1C6C470</schemaObject>
+<nullInstance>true</nullInstance>
+<storableNullInstance>true</storableNullInstance>
+<privileges>INHERIT ANY PRIVILEGES, CREATE SEQUENCE, DROP PUBLIC SYNONYM, CREATE PUBLIC SYNONYM, CREATE VIEW, CREATE TRIGGER, ADMINISTER DATABASE TRIGGER, CREATE ANY SEQUENCE, CREATE TABLE</privileges>
+<profile>DEFAULT</profile>
+<quotaItems>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="6B08AD91-E999-26EC-AA0B-D11DAAD6827B">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="E6826D03-1A8E-DB2B-93D4-1C3748191C54">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="F8BC315F-A4A5-6F3C-A3A3-C8BF8CAAF159">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:25:41 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="8A10DA8B-97B3-4A00-6299-39219B388FE4">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:25:41 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem1" id="2ED9D131-9E12-58E1-A9A7-3F17995F56DA">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</QuotaItem>
+<QuotaItem class="oracle.dbtools.crest.model.design.storage.oracle.v10g.QuotaItemOraclev10g" name="QuotaItem2" id="BEDB394F-B019-84DD-2863-0ED0EFB65E8E">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:27:47 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</QuotaItem>
+</quotaItems>
+</UserOraclev10g>

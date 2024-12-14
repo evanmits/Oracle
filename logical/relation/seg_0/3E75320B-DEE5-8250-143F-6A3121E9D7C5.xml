@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DOCTOR_AFFILIATION" directorySegmentName="seg_0" id="3E75320B-DEE5-8250-143F-6A3121E9D7C5">
+<createdBy>evang</createdBy>
+<createdTime>2024-12-01 01:57:26 UTC</createdTime>
+<generatorID>D3621EA5-7952-FD4A-2588-4C02190AD36C</generatorID>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<engineerTo>
+<item key="149803E2-9FAD-C972-5CD2-6E3506262D62" value="true"/>
+</engineerTo>
+<sourcePk>F62E42A3-793D-6A0B-0B42-0BF9D5657CCB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8222ED56-6462-AD3F-E69B-B8E4AEDFEF56</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0105415A-E02E-6B7E-EB8C-E1DD89317231</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

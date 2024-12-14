@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="FOLLOWUP" directorySegmentName="seg_0" id="09B6CCC1-9312-DF7B-67A4-1AD52CDF77F5">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4DA58D96-FCC3-C44A-CD33-B81DCCFC080B</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VISIT_ID" id="5DC0F4F1-4E15-00ED-927D-307D3859EE88">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="STATUS" id="F0C7E7F4-CFC3-9491-E924-3C64DBE62891">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_FOLLOWUP_VISIT" id="BE6860A8-8731-6679-4A31-2C7FEA3E4739">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FOLLOWUP_PK" id="F32B46B8-96C4-4407-DE44-4C19F3F35926">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<segment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<indexSegment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

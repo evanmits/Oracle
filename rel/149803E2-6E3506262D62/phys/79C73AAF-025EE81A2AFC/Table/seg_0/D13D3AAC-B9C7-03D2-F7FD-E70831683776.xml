@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="VISIT" directorySegmentName="seg_0" id="D13D3AAC-B9C7-03D2-F7FD-E70831683776">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:12:48 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>4DA58D96-FCC3-C44A-CD33-B81DCCFC080B</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VISIT_ID" id="0739DE4E-B742-F136-762D-4E9169BD506A">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISIT_TYPE" id="69790964-89FA-102C-79A4-3152E57D31BF">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VISIT_DATE" id="A031FA40-2E0C-9A24-B67C-F7F98B9D354B">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SS_NUMBER" id="CBB812B2-C93A-51FA-B46C-C2A6B4AE8867">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DOCTOR_ID" id="FD001F5F-8D88-780D-0B89-018B7D6D7FAC">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:21:35 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_VISIT_PATIENT" id="88E9AA6E-3F59-11F5-35DE-B3E7B37403CF">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:12:49 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_VISIT_DOCTRO" id="BF502609-1C0F-4A22-6ED8-CB5D215FE8A0">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:12:49 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VISIT_PK" id="6AFB3B7C-90EC-1F84-2E82-474BF16B3790">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:12:48 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+<schemaObject>87FD2A9D-457B-E76F-B661-59BD957704F0</schemaObject>
+<segment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</segment>
+<tableSpace>35CB4215-C9F4-66E8-453A-631C19427B0B</tableSpace>
+<indexSegment>A2393FD0-A55B-1392-29B8-A0DCC3C45ED2</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.storage.oracle.TableCheckConstraintOracle">
+<TableCheckConstraint name="SYS_C007460" id="200766A7-BE9D-72C2-73CA-3FB78819B9C7">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:12:49 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C007459" id="4D497673-BBC3-5AEB-7C05-F6986780ACF5">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:12:49 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C007462" id="817EDC33-A47A-9139-1D55-4BE4BE0EB332">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:12:49 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</TableCheckConstraint>
+<TableCheckConstraint name="SYS_C007461" id="F2193C34-F1EA-7543-5BD0-66B510640158">
+<createdBy>evang</createdBy>
+<createdTime>2024-11-30 23:12:49 UTC</createdTime>
+<ownerDesignName>HealthOne Project</ownerDesignName>
+</TableCheckConstraint>
+</tableCheckConstraints>
+</TableProxyOraclev12c>
